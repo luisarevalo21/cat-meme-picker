@@ -22,11 +22,11 @@ function highlightCheckedOption(e) {
   document.getElementById(e.target.id).parentElement.classList.add("highlight");
 }
 
-// function closeModal(event) {
-//   console.log(event.target.matches(".meme-modal-close-btn"));
-//   if (event.target.matches(".meme-modal-close-btn") || event.target.closest(".meme-modal"))
-//     memeModal.style.display = "none";
-// }
+function closeModal(event) {
+  //   console.log(event.target.matches(".meme-modal-close-btn"));
+  //   if (event.target.matches(".meme-modal-close-btn") || event.target.closest(".meme-modal"))
+  //     memeModal.style.display = "none";
+}
 
 function renderCat() {
   const catObject = getSingleCatObject();
