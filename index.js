@@ -23,9 +23,9 @@ function highlightCheckedOption(e) {
 }
 
 function closeModal(event) {
-  //   console.log(event.target.matches(".meme-modal-close-btn"));
-  //   if (event.target.matches(".meme-modal-close-btn") || event.target.closest(".meme-modal"))
-  //     memeModal.style.display = "none";
+  console.log(event.target.matches(".meme-modal-close-btn"));
+  if (event.target.matches(".meme-modal-close-btn") || event.target.closest(".meme-modal"))
+    memeModal.style.display = "none";
 }
 
 function renderCat() {
