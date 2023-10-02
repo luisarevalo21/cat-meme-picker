@@ -18,7 +18,6 @@ refreshBtn.addEventListener("click", renderCat);
 let fetchedCatsArray = [];
 
 async function fetchRandomCat(emotion) {
-  console.log(process.env.ACCESS_KEY);
   const res = await fetch(`https://api.unsplash.com/search/photos?query=${emotion}+cat&per_page=20&page=1`, {
     method: "GET",
     headers: {
