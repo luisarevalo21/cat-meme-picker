@@ -21,7 +21,7 @@ async function fetchRandomCat(emotion) {
   const res = await fetch(`https://api.unsplash.com/search/photos?query=${emotion}+cat&per_page=20&page=1`, {
     method: "GET",
     headers: {
-      Authorization: `Client-ID ${import.meta.env.VITE_MY_VAR}`,
+      Authorization: `Client-ID ${VITE_MY_VAR}`,
     },
   });
   const data = await res.json();
