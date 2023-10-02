@@ -9,7 +9,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "VITE_ACCESS_KEY=YvHWNDRBv0BnXBi98VbwCD_X2G7LXw2NQtwWRniLf2o vite build",
+    "build": "vite build",
     "preview": "vite preview"
   }
 }
