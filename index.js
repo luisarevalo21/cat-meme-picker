@@ -1,7 +1,7 @@
 import { catsData, catEmotions, catCategories } from "/data.js";
-// import ACCESS_KEY from "./js/apikey.js";
+import ACCESS_KEY from "./js/apikey.js";
 
-// console.log(ACCESS_KEY);
+console.log(ACCESS_KEY);
 const emotionRadios = document.getElementById("emotion-radios");
 const getImageBtn = document.getElementById("get-image-btn");
 const gifsOnlyOption = document.getElementById("gifs-only-option");
