@@ -1,2 +1,3 @@
 .env
-apikey.js
+
+./js/apikey.js
